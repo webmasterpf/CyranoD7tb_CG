@@ -1,0 +1,19 @@
+/* 
+CSS pour les mails en HTML via Mimemail
+*/
+
+#mimemail-body a{color: #E7512F;}
+#mimemail-body a:hover{text-decoration: none;}
+#mimemail-body p{padding: 2px;}
+#mimemail-body strong{color: #E7512F;}
+#mimemail-body ul{list-style: none;}
+#mimemail-body li{}
+#mimemail-body li a{color: #4e4d5e;text-decoration: none;}
+#mimemail-body li a:hover{background: #F29400;color: white;}
+
+/*********************************
+----------------------------------
+---- NEWSLETTER SIMPLENEWS .TPL ---
+------- Pour Client Web -------
+---------------------------------*/
+/* !!! Inclus dans le tpl !!!*/

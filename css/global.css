@@ -1,0 +1,1353 @@
+/*------------------------------------------------------*
+*-- CSS Drupal--------------*
+*------------------------------------------------------*/
+
+/*------------------------------------------------*
+ *---  Provence Formation Janv. 2010 --*
+ *------------------------------------------------*/
+/*------- EFFETS VISUELS GENERIQUES--------------*/
+.ombrage {
+    border: 5px solid #fff;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    box-shadow: 8px 8px 12px #555;
+    }
+.ombrage_bas {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
+.table_tr_ombrage_bas{
+        -moz-box-shadow: 1px 2px 2px #aaa;
+        -webkit-box-shadow: 1px 2px 2px #aaa;
+        box-shadow: 1px 2px 2px #555;
+    }
+.ombrage_bloc {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
+    .ombrage_bas_table_actu{
+         -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+
+
+/*
+HOMEPAGE STYLE==================================
+*/
+#HPGauche2 ul{
+  margin: 0;
+  padding: 0;
+}
+#HPGauche2 ul li{
+  margin: 0;
+  padding: 0;
+  list-style:disc inside none;
+}
+#HPGauche2 li a{
+  color: #95107D;
+  text-decoration: none;
+}
+#HPGauche2 li a:hover{
+  text-decoration: underline;
+}
+/*-------------------------------------------------
+*********  COULEURS *****************
+gris anthracite #606070
+vert #ADC91F
+violet #911381
+orange #F29400
+bleu turquoise #01ABCF
+rouge #E3001C
+rose fushia #E3001C
+jaune #FAEB0C
+*/
+/*===============================================*/
+/**********STYLE POUR LES BLOCS*******************/
+/*===============================================*/
+
+/**----HEADER---***/
+
+
+/**----MIDDLE---***/
+a#retour_haut{
+    display: none;
+    color: #AEC721;
+    text-decoration: none;
+    text-align: right;
+    float:right;
+}
+a:hover#retour_haut{
+    text-decoration: underline;
+}
+p{
+    padding: 2px;
+    margin: 0;
+}
+
+#middle-content-sortie-actions p, ul{
+    padding: 5px;
+    margin: 0;
+}
+#middle-content-sortie-actions h3{
+    color: #11B0D5;
+    padding: 2px;
+}
+#middle-content-sortie-actions h2{
+   text-align: center;
+   color: #11B0D5;
+}
+#middle-content-sortie-actions h4{
+    color: #94127F;
+    padding: 2px;
+    text-indent: 3px;
+}
+#middle-content-sortie-actions a{
+    color: #11B0D5;
+    text-decoration: none;
+    padding: 2px;
+    text-indent: 3px;
+}
+#middle-content-sortie-actions a:hover{
+    color: white;
+    background: #11B0D5;
+   }
+/*TABLES STYLES DIVERS*/
+.table_generik{
+    border: 0px solid black;
+    width: 95%;
+    margin: 0 auto;
+}
+.table_generik tbody{
+    border: 0;
+    text-align: center;
+}
+.table_generik tr{
+    border: 0px solid black;
+}
+.table_generik tr.ligne_1{
+    background: transparent;
+    color: black;
+}
+.table_generik tr.ligne_2{
+   background: #F29400;
+   color: white;
+}
+.table_generik td{
+    border: 0px solid black;
+   
+}
+#table_frais{
+    border: 0;
+    width: 100%;
+}
+tr.tf_line_1{
+    color: white;
+    background: #01AAD3;
+}
+tr.tf_line_2{
+    color: #E85231;
+    background: white;
+}
+/*style lien en savoir plus*/
+li.node_read_more a{
+color : red;
+text-decoration: none;
+text-align:left;
+}
+li.node_read_more a:hover{
+text-decoration: underline;
+}
+
+
+/****------formulaire contact/////////*/
+#contact-mail-page{
+margin: auto;
+width: 550px;
+padding: 0;
+}
+/*
+BLOC CONNEXION COLORBOX==================================
+*/
+#boxWrapper .item-list{}
+#boxWrapper .item-list a{color: #E85134;text-decoration: none;}
+#boxWrapper .item-list a:hover{text-decoration: underline;}
+
+/*-------------------
+---- CONTENT TOP ----*/
+#content-header{
+padding: 5px;
+}
+/* ZONE MESSAGE */
+#content-header{
+    font-size: 14px;
+    color: #911381;
+    margin: 0 auto;
+    }
+/**style du fil d'ariane**/
+.breadcrumb {
+color:#d63e2a;
+text-decoration:none;
+}
+/*ariane{
+    display: block;
+    width: auto;
+background: white;
+}*/
+
+.breadcrumb a{
+color:#4e4d5e;
+text-decoration:none;
+background: white;
+}
+.breadcrumb a:hover{
+color:#000;
+text-decoration:underline;
+}
+#annonce{
+    color: #E2017B;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 11px 0 0;
+    text-align: center;
+    width: 990px;
+}
+#annonce a{
+    color: #93117E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#annonce a:hover{
+    text-decoration: underline;
+}
+.image-photo-jeunes{
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+}
+/**----CONTENT BOTTOM---***/
+#content-top{}
+.taxonomy{
+text-align:right;
+padding: 3px;
+margin: 0px;
+}
+.taxonomy a{
+color: #d63e2a;
+text-decoration:none;
+}
+.taxonomy a:hover{
+text-decoration:underline;
+}
+/*----page login------*/
+#user-login{
+margin: auto;
+width: 450px;
+padding:10px 0;
+}
+/**----COLONNE GAUCHE---***/
+#left-content p{
+	color:#000;
+
+}
+#left-content a{
+	
+	text-decoration:none;
+}
+#left-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#left-content li{
+	margin:0;
+	padding: 0;
+	}
+/**----COLONNE DROITE---***/
+#right-content p{
+	color:#000;
+
+}
+#right-content a{
+	color:#666666;
+	text-decoration:none;
+}
+#right-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#right-content li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+/*___BASE 2 COL____*/
+#middle-content-base2col a{
+    color: #F29400;
+    text-decoration: none;
+}
+#middle-content-base2col a:hover{
+   text-decoration: underline;
+}
+/*STYLE PAGE LYCEE*/
+.table-formation, #table-acces{
+    width: 320px;
+    border: 0;
+    text-align:right;
+}
+.table-formation .diplome, #table-acces tr.transport{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px dotted gray;
+    text-align:left;
+
+}
+.transport-detail{}
+.views-field-diplome a{
+     color: gray;
+      text-decoration: none;
+}
+.views-field-diplome a:hover{
+   text-decoration: underline;
+}
+/*********************************
+----------------------------------
+---- REGIONS VIA TEMPLATE.PHP ---------
+---------------------------------*/
+#region_col_G1{}
+#region_col_G2{}
+#region_col_G3{}
+
+
+#region_col_G1 .block-slinky_site{
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 0;
+}
+/*********************************
+----------------------------------
+---- RESEAUX SOCIAUX Service links
+---------------------------------*/
+.service-links, #content-bottom-home .service-links,.links{
+    background: none repeat scroll 0 0 #EFEFEF;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    width: 90%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
+}
+.service-links a,.links a{
+    margin: 0 5px;
+    color: #F29400;
+}
+.service-links a:hover,.links a:hover{
+    text-decoration: none;
+}
+.service-links{}
+/* Bloc Follow sur Homepage  avec module Follow*/
+#block-follow-site h3{
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #94117E;
+}
+#block-follow-site a{
+    color:#F29400;
+    text-decoration: none;
+}
+#block-follow-site a:hover{
+    text-decoration: underline;
+}
+#block-follow-site{
+    background: #ECECED;
+    border: 1px solid #606070;
+    padding: 5px;
+    margin: 0 auto;
+    width: 350px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+#block-follow-site{}
+/*********************************
+----------------------------------
+---- NEWSLETTER BLOC.TPL ---------
+---------------------------------*/
+#bloc-newsletter{
+     margin: 0 auto;
+    width: 250px;
+}
+#bloc-newsletter p{
+    /*float: left;*/
+    width: auto;
+}
+#bloc-newsletter form{
+    
+    margin: 0;
+}
+
+
+#bloc-newsletter .form-item label {
+    float: left;
+    margin: 0 5px;
+}
+#bloc-newsletter .form-submit input{
+     float: right;
+}
+#bloc-newsletter{}
+
+#bloc-newsletter .simplenews-subscription-filter .form-item {
+  clear: both;
+  line-height: 1.75em;
+  margin: 0pt 1em 0pt 0pt;
+}
+
+#bloc-newsletter .simplenews-subscription-filter .form-item label {
+  float: left;
+  width: 12em;
+}
+
+#bloc-newsletter .simplenews-subscription-filter .spacer {
+  margin-left: 12em;
+}
+
+#bloc-newsletter .simplenews-subscription-filter .form-select,
+#bloc-newsletter .simplenews-subscription-filter .form-text {
+  width: 14em;
+}
+/* BLOC NL MULTI SOUSCRIPTION
+------------------------------*/
+.block-simplenews{
+    background: #F29400;
+    margin: 10px auto;
+    width: 250px;
+    padding: 5px;
+     border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+.block-simplenews h3{
+    color: #4e4d5e;
+}
+.block-simplenews .form-item,.block-simplenews .form-submit{
+    text-align: center;
+}
+.block-simplenews .form-submit{
+    margin: 0 0 0 15px;
+}
+#bloc-newsletter-multi{
+     margin: 0 auto;
+    width: inherit;
+}
+#bloc-newsletter-multi p{
+    /*float: left;*/
+    width: auto;
+}
+#bloc-newsletter-multi form{
+     margin: 0;
+}
+#bloc-newsletter-multi .form-item label {
+    margin: 0 5px;
+}
+#bloc-newsletter-multi .form-submit input{
+     float: right;
+}
+#bloc-newsletter-multi{}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .form-item {
+  clear: both;
+  line-height: 1.75em;
+  margin: 0pt 1em 0pt 0pt;
+}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .form-item label {
+  float: left;
+  width: 12em;
+}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .spacer {
+  margin-left: 12em;
+}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .form-select,
+#bloc-newsletter-multi .simplenews-subscription-filter .form-text {
+  width: 14em;
+}
+/*********************************
+----------------------------------
+---- SIMPLENEWS MAIL CONFIRMATION ---------
+---------------------------------*/
+.mail-confirmation{
+    width: 550px;
+}
+.mail-confirmation a{
+    color: #E7512F;
+    text-decoration: none;
+}
+.mail-confirmation a:hover{
+    background: #E7512F;
+    color: #EFEFEF;
+}
+.mail-confirmation strong{
+    color: #00ACD1;
+}
+/*********************************
+----------------------------------
+---- NEWSLETTER NODE.TPL ---------
+---------------------------------*/
+#illustration-newsletter{
+    float: right;
+}
+.nl-actus{
+    margin: 0 auto;
+    width: 220px;
+}
+/*********************************
+----------------------------------
+---- BLOC GRAWITZ ACTUS et AUTRES EVENEMENTS---------
+---------------------------------*/
+#bloc_grawitz_actus, #bloc_autre_event{
+  background-color: white;
+  background-image: url(../images/bg_grawitz_actus_ht.jpg),url(../images/bg_grawitz_actus_bas.jpg);
+  background-position: left 23px, left bottom;
+  background-repeat: no-repeat;
+   padding: 5px 0;
+}
+#bloc_grawitz_actus tr{}
+#bloc_grawitz_actus td{}
+#bloc_grawitz_actus h3, #bloc_autre_event h3{
+    color: #95127C;
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+     font-size: 20px;
+}
+#bloc_grawitz_actus{}
+
+.table_ga tbody,.table_ae tbody{
+  width: 200px;border: 0;
+  
+}
+.table_ga td,.table_ae td{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    margin: 5px 0;
+    padding: 0 0 0 5px;
+    width: 200px;
+}
+.table_ga tr, .table_ae tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0;
+    
+}
+.table_ga a, .table_ae a{
+    text-decoration: none;
+    color: #606070;
+}
+.table_ga a:hover, .table_ae a:hover{
+    background: #F29400;
+    color: white;
+}
+/*********************************
+---- HOMEPAGE ACTUS -----------
+*********************************/
+#table-actus-hp,#table-actus-hp2{
+    width: 440px;
+    margin: 0 auto;
+    border: 0;
+}
+#table-actus-hp thead th,#table-actus-hp2 thead th{
+    border-bottom: 3px solid #F29400;
+}
+#table-actus-hp tbody,#table-actus-hp2 tbody{}
+#table-actus-hp tr,#table-actus-hp2 tr{
+    margin: 3px;
+
+
+}
+#table-actus-hp td,#table-actus-hp2 td{
+    background: white;
+    border: 0;
+    margin: 2px 0;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #950F7E;
+}
+#table-actus-hp td:hover,#table-actus-hp2 td:hover{
+    background: #F29400;
+}
+#table-actus-hp p{}
+#table-actus-hp a,#table-actus-hp2 a{
+    color: #950F7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#table-actus-hp a:hover,#table-actus-hp2 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#table-actus-hp span.date-display-single,#table-actus-hp2 span.date-display-single{
+    text-align: right;
+    float: right;
+    font-style: italic;
+}
+/*********************************
+----------------------------------
+---- PAGE LYCEE NODE.TPL ---------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+h1.titre_pl{
+    font-size: 24px;
+    color: #93117E;
+    line-height: 1.0em
+}
+h1.titre_pl a{}
+h1.titre_pl a:hover{}
+/*######-------- COLONNE G1 --------######*/
+.pageLycee_content_col_G1 h2{}
+.pageLycee_content_col_G1 h3{}
+.pageLycee_content_col_G1 h4{}
+.pageLycee_content_col_G1 p{}
+.pageLycee_content_col_G1 ul{}
+.pageLycee_content_col_G1 img{
+     border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+
+.pageLycee_content_col_G1 a{}
+.pageLycee_content_col_G1 a:hover{}
+
+.pageLycee_content_col_G1 h2 a{}
+.pageLycee_content_col_G1 h2 a:hover{}
+.pageLycee_content_col_G1 h3 a{}
+.pageLycee_content_col_G1 h3 a:hover{}
+.pageLycee_content_col_G1 h4 a{}
+.pageLycee_content_col_G1 h4 a:hover{}
+/*######-------- COLONNE G2 --------######*/
+.pageLycee_content_col_G2 h2{
+    color: #F29400;
+    padding: 5px;
+}
+.pageLycee_content_col_G2 h3{
+    color: #911381;
+    padding: 5px;
+}
+.pageLycee_content_col_G2 h4{
+    padding: 5px;
+    color: #F29803;
+}
+.pageLycee_content_col_G2 p{
+    padding: 5px;
+}
+.pageLycee_content_col_G2 ul{
+    padding: 5px;
+}
+.pageLycee_content_col_G2 img{
+
+}
+
+.pageLycee_content_col_G2 a{
+    color: #F29400;
+    text-decoration: none;
+    padding: 2px;
+}
+.pageLycee_content_col_G2 a:hover{
+    color: white;
+    background: #F29400;
+}
+
+.pageLycee_content_col_G2 h2 a{}
+.pageLycee_content_col_G2 h2 a:hover{}
+.pageLycee_content_col_G2 h3 a{}
+.pageLycee_content_col_G2 h3 a:hover{}
+.pageLycee_content_col_G2 h4 a{}
+.pageLycee_content_col_G2 h4 a:hover{}
+
+/*######-------- COLONNE G3 --------######*/
+.pageLycee_content_col_G3 h2{}
+.pageLycee_content_col_G3 h3{}
+.pageLycee_content_col_G3 h4{}
+.pageLycee_content_col_G3 p{}
+.pageLycee_content_col_G3 ul{}
+.pageLycee_content_col_G3 img{
+
+}
+
+.pageLycee_content_col_G3 a{}
+.pageLycee_content_col_G3 a:hover{}
+
+.pageLycee_content_col_G3 h2 a{}
+.pageLycee_content_col_G3 h2 a:hover{}
+.pageLycee_content_col_G3 h3 a{}
+.pageLycee_content_col_G3 h3 a:hover{}
+.pageLycee_content_col_G3 h4 a{}
+.pageLycee_content_col_G3 h4 a:hover{}
+
+/* Fichier joint dans page lycée*/
+#fichier-joint-plycee{
+    display: block;
+    margin: 0 auto;
+    width: 215px;
+    background: transparent url(../images/bg_doc_utile_rp.gif) repeat ;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 0;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+}
+#fichier-joint-plycee h3{
+    font-family: arista,Trebuchet MS, sans-serif;
+    color: #F29400;
+    padding: 5px;
+    text-align: center;
+
+}
+#fichier-joint-plycee a{
+    color: #606070;
+    display: block;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 2px;
+    width: 180px;
+    text-decoration: none;
+}
+#fichier-joint-plycee a:hover{
+    background: #F29400;
+    color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+
+}
+#fichier-joint-plycee .filefield-icon {
+    display: none;
+}
+#video-plycee{
+    margin: 0 auto;
+    border: 1px solid #F49402;
+    padding: 5px;
+    width: 430px;
+}
+/*********************************
+----------------------------------
+---- PAGE POLE NODE.TPL --------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+h1.titre_pole_content{
+    text-align: center;
+      font-family: arista,Trebuchet MS,sans-serif;
+}
+
+.bloc_pole_formation_MSAC, .bloc_pole_formation_MRSP, .bloc_pole_formation_FC{
+    background:  url(../images/bg_pole.jpg) no-repeat left top ;
+    width: 315px;
+    margin: 0 auto;
+    padding: 30px 0 15px 0;
+}
+.bloc_pole_formation_MSAC h3,.bloc_pole_formation_MRSP h3,.bloc_pole_formation_FC h3 {
+    color: #606070;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 220px;
+    padding: 25px 0 0;
+    font-family: arista,Trebuchet MS,sans-serif;
+}
+.bloc_pole_formation_FC{}
+
+
+
+h3.diplome_formation{
+     color: #02A7D5;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 220px;
+    padding: 10px 0;
+}
+
+.table-liste-pole{
+    width: 250px;
+      margin: 0 auto;
+      display: block;
+}
+.table-liste-pole tbody{
+      
+}
+.table-liste-pole td{
+     text-align: center;
+   
+}
+
+.table-liste-pole a{
+    padding: 2px;
+    display: block;
+    color: #EFEFEF;
+    font-size: 14px;
+    text-decoration: none;
+}
+.table-liste-pole a:hover{
+    background: #93117D;
+}
+
+/*********************************
+----------------------------------
+---- FICHE FORMATION NODE.TPL ---------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+/*Col G1*/
+h1.titre_ficheform{
+    color: #F29400;
+}
+
+#docs-utiles-ficheform{
+    background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+}
+#docs-utiles-ficheform h3{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+
+}
+#docs-utiles-ficheform a{
+    color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
+    text-decoration: none;
+    padding: 2px;
+    
+}
+#docs-utiles-ficheform a:hover{
+    background: #911381;
+    color: white;
+    padding: 2px 2px 5px;
+}
+#docs-utiles-ficheform .filefield-icon {
+    display: none;
+}
+
+.table-docs-utiles-ficheform table{}
+.table-docs-utiles-ficheform tbody{}
+.table-docs-utiles-ficheform tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+.table-docs-utiles-ficheform td{
+    
+}
+.table-docs-utiles-ficheform{}
+.taxo_ficheform{
+    background: #ACC624;
+    color: #606070;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+
+/*Col G2*/
+#deco-ficheform img{
+    border: 2px solid #950F7E;
+    padding: 3px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+}
+#philo-ficheform h2{
+   font-family: 'Josefin Slab',Trebuchet MS;
+    font-size: 21px;
+    text-align: right;
+    color: #F29400;
+    font-style: italic;
+    font-weight: 400;
+}
+/*Col G3*/
+.ficheform_content_col_G3 p{
+    padding: 5px;
+}
+.ficheform_content_col_G3 strong{
+    color: #F29400;
+}
+.ficheform_content_col_G3 a{
+    color: #F29400;
+}
+.ficheform_content_col_G3 a:hover{
+    text-decoration: none;
+}
+.ficheform_content_col_G3 h2{
+    color: #E7512F;
+}
+.ficheform_content_col_G3 h3{
+    color: #01AAD1;
+}
+/*********************************
+----------------------------------
+---- CONTENU VDL NODE.TPL ---------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+csa = contenu sortie action
+cp = contenu projet
+cint = contenu intervenant
+cinn = contenu innovation
+cape = contenu asso parent eleves
+*/
+.csa_content_col_G1,.cp_content_col_G1,.cint_content_col_G1,.cinn_content_col_G1,.cape_content_col_G1{}
+.csa_content_col_G2,.cp_content_col_G2,.cint_content_col_G2,.cinn_content_col_G2,.cape_content_col_G2{}
+.csa_content_col_G3,.cp_content_col_G3,.cint_content_col_G3,.cinn_content_col_G3,.cape_content_col_G3{}
+
+.csa_content_col_G2 a,.cp_content_col_G2 a,.cint_content_col_G2 a,.cinn_content_col_G2 a,.cape_content_col_G2 a{
+    color: #F29400;
+    text-decoration: none;
+    padding: 2px;
+}
+.csa_content_col_G2 a:hover,.cp_content_col_G2 a:hover,.cint_content_col_G2 a:hover,.cinn_content_col_G2 a:hover,.cape_content_col_G2 a:hover{
+    color: white;
+    background: #F29400;
+}
+
+/*Col G1*/
+#docs-utiles-vdl{
+    background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+}
+#docs-utiles-vdl h3{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+#docs-utiles-vdl a{
+    color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
+    text-decoration: none;
+    padding: 2px;
+    text-indent: 2px;
+
+}
+#docs-utiles-vdl a:hover{
+    background: #911381;
+    color: white;
+    text-indent: 5px;
+}
+#docs-utiles-vdl .filefield-icon {
+    display: none;
+}
+
+.table-docs-utiles-vdl table{}
+.table-docs-utiles-vdl tbody{}
+.table-docs-utiles-vdl tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+.table-docs-utiles-vdl td{
+
+}
+/*Col G2*/
+#illustration-vdl{
+    float: right;
+}
+#illustration-vdl img{
+    margin: 3px;
+    border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+#video-vdl{
+    width: 425px;
+    margin: 0 auto;
+    padding: 2px;
+    border: 1px solid #970F7D;
+}
+#galerie-vdl{
+    padding: 5px 0;
+}
+#galerie-vdl h3{
+    text-align: center;
+    color: #970F7D;
+    font-size: 20px;
+    margin: 5px;
+}
+.view-Diapo-vie-du-lycee img{
+    border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 2px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 2px;
+    box-shadow: #AAAAAA 0px 0px 2px;
+}
+/*********************************
+----------------------------------
+---- CONTENU ENTREPRISE NODE.TPL --
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+#cg_logo_entreprise img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*----------------------------------------
+$$$$$$$ CONTENU ACTUALITES $$$$$$$$$$$$
+------------------------------------------*/
+h1.titre_actualites_content{
+    color: #F49402;
+    font-family: 'Arvo',Trebuchet MS,sans-serif;
+}
+h3.docs-actualites{
+    color: #ADC821;
+    text-align: center;
+}
+#bloc-docs-actualites{
+    width: 90%;background: #EFEFEF;padding: 10px;margin: 0 auto;border-radius: 5px;
+}
+#bloc-docs-actualites a{
+    text-decoration: none;
+    color: #02A7D5;
+    padding: 4px;
+}
+#bloc-docs-actualites a:hover{
+    background: #02A7D5;
+    color: white;
+}
+#bloc-docs-actualites{}
+#bloc-docs-actualites{}
+
+
+#bloc-video-actualites{
+    border: 1px solid #F29400;
+    margin: 0 auto;
+    padding: 2px;
+    width: 425px;
+}
+
+#bloc-audio-actualites{}
+
+#table-docs-actualites tbody{border: 0;}
+#table-docs-actualites tr{
+     border: 0 none;
+}
+#table-docs-actualites td{
+    display: inline-block;
+    margin: 0 50px;
+}
+#table-docs-actualites a{}
+#table-docs-actualites a:hover{}
+
+/*********************************
+----------------------------------
+---- PAGE ACTUALITES NODE.TPL --
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+h1.titre_page_actualites{
+    margin: 3px;
+}
+
+#bloc_liste_actus .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_actus .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_actus span.views-field-name,#bloc_liste_actus span.views-field-created,#bloc_liste_actus span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_actus span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_actualites{
+    padding: 5px;width: 100%;
+}
+.table_liste_actualites tbody{}
+.table_liste_actualites tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_actualites td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_liste_actualites a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #F29400;
+}
+.table_liste_actualites a:hover{
+      color: #911381;
+}
+.table_liste_actualites{}
+
+.table_liste_actualites hr{
+    border-top: 1px solid #F29400;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*Bloc liste RP colonne G3*/
+#bloc_liste_rp h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #00ACD1;
+   font-size: 1.5em;
+   margin: 5px 0;
+}
+#bloc_liste_rp p{
+    text-align: center;
+    padding: 5px;
+}
+.liste-revue-presse_defaut ul{
+    list-style: none;
+    width: 190px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.table_liste_rp{
+     background: transparent url(../images/bg_actu_revuepresse.jpg) no-repeat ;
+      margin: 0 auto;
+    width: 210px;
+}
+.table_liste_rp tbody{
+     background: none;
+    border: 0 none;
+}
+.table_liste_rp tr{
+       background: none;
+    border: 0 none;
+}
+.table_liste_rp td{
+     text-align: center;
+    padding: 5px;
+}
+.table_liste_rp a{
+        padding: 2px;
+    text-decoration: none;
+    color: #656571;
+    font-weight: bold;
+}
+.table_liste_rp a:hover{
+     background: #D0D1D2;
+}
+.table_liste_rp hr{
+    border-top: 1px solid #00ACD1;
+    width: 75%;
+    margin: 0 auto;
+}
+/*Bloc RSS*/
+#block-aggregator-feed-1{
+        background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+}
+#block-aggregator-feed-1 h3{
+     text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+#block-aggregator-feed-1 a{
+      color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
+    text-decoration: none;
+    padding: 2px;
+    text-indent: 2px;
+}
+#block-aggregator-feed-1 a:hover{
+      background: #911381;
+    color: white;
+    text-indent: 5px;
+}
+#block-aggregator-feed-1 ul li{
+    margin: 0;
+    list-style: none;
+}
+#block-aggregator-feed-1 li{
+    list-style: none;
+}
+#block-aggregator-feed-1 .filefield-icon {
+    display: none;
+}
+/*********************************
+----------------------------------
+---- PAGE LYCEE-ENTREPRISE NODE.TPL --
+----------- LISTE --------------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+
+h1.titre_page_lycee_entreprise{
+    margin: 3px;
+}
+
+#bloc_liste_lycee-entreprise .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_lycee-entreprise .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_lycee-entreprise span.views-field-name,#bloc_liste_lycee-entreprise span.views-field-created,#bloc_liste_lycee-entreprise span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_lycee-entreprise span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_lycee_entreprise{
+    padding: 5px;
+}
+.table_liste_lycee_entreprise tbody{}
+.table_liste_lycee_entreprise tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_lycee_entreprise td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_liste_lycee_entreprise a{
+        text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #F29400;
+}
+.table_liste_lycee_entreprise a:hover{
+      color: #911381;
+}
+.table_liste_lycee_entreprise{}
+
+.table_liste_lycee_entreprise hr{
+    border-top: 1px solid #F29400;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*********************************
+----------------------------------
+---- PAGE VDL NODE.TPL --
+----------- LISTE --------------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+
+h1.titre_page_vdl{
+    margin: 3px;
+}
+
+#bloc_liste_vdl .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_vdl .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_vdl span.views-field-name,#bloc_liste_vdl span.views-field-created,#bloc_liste_vdl span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_vdl span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_vdl{
+    padding: 5px;
+}
+table.table_liste_vdl,.table_liste_vdl tbody{width: 95%;margin: 0 auto;}
+.table_liste_vdl tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_vdl td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+    float: left;
+    width: 95%;
+}
+.table_liste_vdl a{
+        text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #F29400;
+}
+.table_liste_vdl a:hover{
+      color: #911381;
+}
+.table_liste_vdl{}
+
+.table_liste_vdl hr{
+    border-top: 1px solid #F29400;
+    width: 75%;
+    margin: 0 auto;
+}
+.deco_vdl img{
+    float: right;
+    border: 1px solid #F29400;
+}
+/*==
+== Pager pour pages archives(listes) ===
+==*/
+#bloc_liste_vdl ul.pager,#bloc_liste_lycee-entreprise ul.pager,#bloc_liste_actus ul.pager{margin: 3px auto;width: 95%;display: block;padding: 3px;}
+#bloc_liste_vdl .pager li,#bloc_liste_lycee-entreprise .pager li,#bloc_liste_actus .pager li
+{float: left;}
+#bloc_liste_vdl .pager li a,#bloc_liste_lycee-entreprise .pager li a,#bloc_liste_actus .pager li a{color:#1F1F1F;}
+#bloc_liste_vdl .pager li.pager-item,#bloc_liste_lycee-entreprise .pager li.pager-item,#bloc_liste_actus .pager li.pager-item,
+#bloc_liste_vdl .pager li.pager-current,#bloc_liste_lycee-entreprise .pager li.pager-current,#bloc_liste_actus .pager li.pager-current
+{padding: 3px;border-radius: 10px; height: 15px;width: 15px;}
+#bloc_liste_vdl .pager li.pager-item,#bloc_liste_lycee-entreprise .pager li.pager-item,#bloc_liste_actus .pager li.pager-item
+{background:#91127D ;color:#EFEFEF;}
+#bloc_liste_vdl .pager li.pager-item a,#bloc_liste_lycee-entreprise .pager li.pager-item a,#bloc_liste_actus .pager li.pager-item a{color:#EFEFEF;}
+#bloc_liste_vdl .pager li.pager-current,#bloc_liste_lycee-entreprise .pager li.pager-current,#bloc_liste_actus .pager li.pager-current
+{background: #F29400;color:#3F3F3F;}
+
