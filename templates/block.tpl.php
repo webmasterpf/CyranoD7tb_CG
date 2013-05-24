@@ -1,4 +1,4 @@
-<div id="block-<?php print $block->module .'-'. $block->delta ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<aside id="block-<?php print $block->module .'-'. $block->delta ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div class="block-inner">
 
       <?php print render($title_prefix); ?>
@@ -12,4 +12,4 @@
 		</div>
 
   </div>
-</div> <!-- /block-inner /block -->
+</aside> <!-- /block-inner /block -->

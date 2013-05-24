@@ -1,0 +1,264 @@
+/**
+Sass pour page d'accueil
+Inclusion du framework Twitter Bootstrap par import
+ */
+@import "../bootstrap/lib/bootstrap.scss";
+@import "../bootstrap/lib/responsive.scss";
+/* Styles customs*/
+@import "custom-styles.scss";
+
+/*== General Properties ==*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	color: #33343D;
+}
+/*Wrapper global*/
+
+#main-global{
+	@extend .container;
+}
+/*== HEADER ===*/
+#header{
+	@extend .row;	
+
+}
+#header-inner{
+    @extend .row;	
+}
+/*Partie gauche du header*/
+#headHaut{
+	@extend .row;
+    	
+}
+#logoHead{
+  @extend  .span4;   
+  
+}
+#logoHead img{
+	
+}
+/*Menu pictos header*/
+#menuImg{
+  @extend  .span8;
+  @extend  .offset4;
+}
+#navPicto{
+
+
+}
+#navPicto table,#navPicto tbody{border: 0;}
+#navPicto td{
+
+}
+
+#navPicto a {border:0;font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;color:#94127F;font-size: 23px;text-decoration: none;}
+#navPicto a:hover{color: $rose-fushia;}
+/************PARTIE BASSE**************/
+#headBas{
+	@extend .row;
+	background:transparent url(../images/bg_menu_rp.gif) repeat-x top left;
+	
+}
+
+#name-and-slogan{
+	
+}
+#site-name a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+
+#site-name{
+
+margin:0;
+}
+#site-slogan{
+  @extend .span4;
+    text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+
+#site-slogan a{}
+#headSearch{
+ @extend  .span8;
+  @extend  .offset4;
+background: url(../images/bg_recherche.gif) no-repeat left 5px;
+
+}
+#search{
+  width: 225px;
+  height: 25px;
+  display: block;
+  padding:0 3px 0 0;
+
+}
+/*Menu principal haut du header*/
+#menuHead{
+	@extend  .span12;
+	
+}
+/*FIN CSS HEADER*/
+/*****************/
+/*Bas de page  FOOTER*/
+
+#footer{
+	@extend  .span12;
+	background: white url(../images/bg_footer.jpg) no-repeat bottom right;
+	text-align: left;
+	color: #9898a6;
+       
+}
+
+#footer a{
+color: #9898a6;
+text-decoration:none;
+}
+#footer a:hover{
+color: #000000;
+}
+#bloc_stats{
+    color:red;
+    margin:0 auto;
+    width:600px;
+}
+/**----Fin FOOTER---***/
+#mainPage{
+	margin:auto;
+	width:990px;
+	clear:none;
+        background: url(../images/bg_content_etoile.gif) no-repeat left bottom;
+	
+}
+/********************/
+/*ZONES PAGE ACCUEIL DIAPO PANORAMIQUE*/
+#content-bottom-home a{
+    color: gray;
+    font-weight: bold;
+}
+#HPDiapo{
+width: auto;
+height: auto;
+padding:10px 0 0;
+
+}
+/****************/
+#BasGaucheHP{
+        width:54%;
+        float:left;
+	background:none;
+	color:black;
+
+}
+
+#BasDroitHP{
+	width:46% !important;
+        width: 43%;
+	float:right;
+	background:none;
+        margin: 10px 0;
+}
+#BasGaucheHP ul li{
+    list-style: square;
+}
+#BasGaucheHP a,#BasDroitHP a{
+text-decoration:none;
+}
+#BasGaucheHP a:hover,#BasDroitHP a:hover{
+text-decoration:underline;
+}
+#BasDroitHP h3,#BasGaucheHP h3,#BasDroitHP h2,#BasGaucheHP h2{
+    text-align: center;color: #E7512F;
+}
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
+#transparency{
+background:none repeat scroll 0 0 #F29400;/*Couleur du fond*/
+height:65px;
+bottom:10px;
+left:12px;
+position:absolute;
+width:968px;
+z-index:15;
+opacity:0.0;/*0.6*/
+-moz-opacity : 0.0;
+-ms-filter: "alpha(opacity=00)"; /* IE 8 */
+filter : alpha(opacity=00); /* IE < 8 */
+}
+#contenu-diapo{
+position:relative;
+bottom: 10%;
+left: 10px;
+color: white;
+z-index:20;
+top: -40px;
+}
+#contenu-diapo h2{
+color: white;
+padding:5px;
+font-family: Arista,Trebuchet MS,sans serif;
+
+}
+#contenu-diapo a{
+color: white;
+text-decoration: none;
+}
+.view-diaporama-homepage{
+height:200px;
+margin:0 auto;
+position:inherit;
+width:978px;
+}
+#views_slideshow_singleframe_main_diaporama_homepage-block_1{
+    padding: 0;
+}
+#views_slideshow_singleframe_teaser_section_diaporama_homepage-block_1{
+    position: relative;
+    z-index:1;
+}
+/*---------------------------------------------------------
+--------------  HOMEPAGE POUR DIAPO3D
+-----------------------------------------------------------
+*/
+#Diapo3D{
+    margin: 0 auto;
+    
+     
+}
+#Diapo3DReg{
+    width: 880px;
+    margin: 0 auto;
+    display: block;
+}
+/*
+HOMEPAGE SLIDESHOW DERNIERES VDL (Views2)=======================
+*/
+#views_slideshow_singleframe_main_HP_slideshow-block_1 .views-field-title a{
+    color:#93117E;font-size: 14px;text-decoration: none;
+}
+#views_slideshow_singleframe_main_HP_slideshow-block_1 .views-field-title a:hover{
+    text-decoration: underline;
+}
+#views_slideshow_singleframe_main_HP_slideshow-block_1 img{
+    padding: 2px;
+    border: 3px solid #F29400;
+}
+/*
+HOMEPAGE SLIDESHOW DERNIERES VDL (Views3) =======================
+*/
+#views_slideshow_cycle_main_HP_slideshow-block_1 .views-field-title a{
+    color:#93117E;font-size: 14px;text-decoration: none;
+}
+#views_slideshow_cycle_main_HP_slideshow-block_1 .views-field-title a:hover{
+    text-decoration: underline;
+}
+#views_slideshow_cycle_main_HP_slideshow-block_1 img{
+    padding: 2px;
+    border: 3px solid #F29400;
+}
+

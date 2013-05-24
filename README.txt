@@ -1,10 +1,22 @@
-Avril 2011 − Webmaster PF
+Mai 2013 − Webmaster PF
 −−−−−−−−−−−−−−−−−−−−−−−−−
-STARTER THEME DRUPAL 7
+CYRANO THEME DRUPAL 7 RWD
 −−−−−−−−−−−−−−−−−−−−−−−−−
 
-Thème basé sur Basic pour Drupal 7.
-Permet le develeoppement des sites de PF avec Drupal 7.
+Utilisation de Twitter Bootstrap & HTML5
+
+Ressources:
+http://twitter.github.io/bootstrap/index.html
+https://github.com/jlong/sass-twitter-bootstrap
+https://github.com/thomas-mcdonald/bootstrap-sass
+
+http://thesassway.com/projects/sass-twitter-bootstrap
+http://www.1stwebdesigner.com/css/build-website-using-twitter-bootstrap-sass-1/
+
+http://www.rgracia.com/content/blog/mar/7/2013/converting-your-drupal-7-theme-html5
+
+html.tpl.php imported from bootstrap drupal base theme
+http://drupal.org/project/bootstrap
 
 
 ****************************** THEMING  **********************************************
@@ -15,7 +27,7 @@ EXEMPLE:
     <?php print render($page['footer_icons']); ?>
   </div> <!-- /.footer icons -->
 <?php endif; ?>
----------------------- INCLURE CONTENU D4UN CHAMP CCK -----------------------------------------
+---------------------- INCLURE CONTENU D'UN CHAMP CCK -----------------------------------------
 <?php
 /* inclure des champs CCK dans le node selon http://robotlikehuman.com/web/printing-cck-content-field-values-drupal-7
  * Ce qui donne pour D7
@@ -130,4 +142,3 @@ search-results.tpl.php is the default wrapper for search results. Depending on t
 search-result--[searchType].tpl.php
 base template: search-result.tpl.php
 The same as above but for individual search results.
-

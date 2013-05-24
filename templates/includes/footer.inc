@@ -1,15 +1,15 @@
 <?php
 /* 
- * Le footer du site Placé en includes
+ * Inclusion du footer HTML5
  */
 
 ?>
 <!-- ______________________ FOOTER _______________________ -->
-<br clear="all"/>
+<div id="footer-wrapper">
     <?php if(!empty ($page['footer'])): ?>
-    <div id="footer">
+    <footer id="footer">
       <?php print render ($page['footer']); ?>
-    </div> <!-- /footer -->
+    </footer> <!-- /footer -->
   <?php endif; ?>
   <div id="bloc_stats">
     !!!!  STATS DESACTIVEES !!!!
@@ -18,4 +18,5 @@
   //include ($theme_path.'/js/code_stats.php');
   ?>
 </div>
-    </div> <!-- /general OR /page -->
+    </div><!-- /footer-wrapper -->
+    </div> <!-- /main-global -->

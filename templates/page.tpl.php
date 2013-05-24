@@ -1,93 +1,53 @@
 <?php
-  $theme_path = drupal_get_path('theme', 'cyranod7_cg');
-  include ($theme_path.'/includes/inc_header.php');
-  ?>
-
-  <!-- ______________________ LAYOUT PAGE BASIQUE PAGE.TPL _______________________ -->
-  <!-- ______________________ CONTENU _______________________ -->
-
-   <div id="contentPage" class="clearfix">
-
-    <div id="content">
-              <!-- ______________________ CONTENT TOP _______________________ -->
-      <?php if ($breadcrumb || ($page ['content_top']) ): ?>
-            <div id="content-top">
-	<span id="ariane"> 
-            <?php $breadcrumb = theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb()));
-             print $breadcrumb; ?></span>
-
-              <?php print render ($page ['content_top']); ?>
-            </div>
-              <?php endif; ?><!-- /#content-top -->
-              <!-- Si besoin de colonne sans node custom tpl -->
-              
-               <?php if (!empty($page ['left'])): ?>
-              <div id="left-content">  <?php print render ($page ['left']); ?>       </div>
-                <?php endif; ?>
-        
-             	<!--fin du contenu gauche -->
-
-      <div id="content-inner" class="inner column center">
-
-        <?php if ($messages || $tabs || $action_links): ?>
-          <div id="content-header">
-
-          
-
-            <?php if (!empty($page['highlight'])): ?>
-              <div id="highlight"><?php print render($page['highlight']) ?></div>
-            <?php endif; ?>
-
-          
-
-            <?php print $messages; ?>
-            <?php print render($page['help']); ?>
-            <?php print render($tabs); ?>
-
-          </div> <!-- /#content-header -->
-        <?php endif; ?>
-
-        <div id="content-area">
-          <?php print render($page['content']) ?>
-        </div>
-
-        <?php print $feed_icons; ?>
-
-      </div>
-    </div> <!-- /content-inner /content -->
-
-  
-
-    <!-- Si besoin de colonne sans node custom tpl -->
-    <?php if (!empty($page ['right'])): ?>
-        
-         <div id="right-content" class="colonne"> <?php print render ($page ['right']); ?> </div>
-        <?php endif; ?>
-    <!-- /colonne-right -->
-
- <br clear="all"/>
-	<!-- ______________________ CONTENU BAS _______________________ -->
-
-   
-           <div id="content-bottom">
-           <?php if (!empty($page ['content_bottom'])): ?>
-           <?php print ($page ['content_bottom']); ?>
-           <?php endif; ?>
-                
-    <?php if ($main_menu || $secondary_menu): /*Si utilise Menu Principal de Drupal alors il faut cacher cette partie*/ ?>
-      <div id="navigation" class="menu <?php if (!empty($main_menu)) {print "with-primary";} if (!empty($secondary_menu)) {print " with-secondary";} ?>">
-        <?php /*print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); */?>
-        <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('links', 'clearfix', 'sub-menu')))); ?>
-      </div>
-    <?php endif; ?>
-                
-            </div><!-- /#content-bottom -->
-        
-
-
-  </div> <!-- /main -->
-     <?php
-$theme_path = drupal_get_path('theme', 'cyranod7_cg');
-include ($theme_path.'/includes/inc_footer.php');
+$theme_path = drupal_get_path('theme', 'cyranod7tb_cg');
+include ($theme_path.'/templates/includes/header.inc');
 ?>
- 
+
+<div class="main-container container">
+
+
+
+  <div class="row-fluid">
+
+    <?php if (!empty($page['sidebar_first'])): ?>
+      <aside class="span3" role="complementary">
+        <?php print render($page['sidebar_first']); ?>
+      </aside>  <!-- /#sidebar-first -->
+    <?php endif; ?>  
+
+    <section class="<?php print _bootstrap_content_span($columns); ?>">  
+      <?php if (!empty($page['highlighted'])): ?>
+        <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
+      <?php endif; ?>
+      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php if (!empty($title)): ?>
+        <h1 class="page-header"><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+      <?php print $messages; ?>
+      <?php if (!empty($tabs)): ?>
+        <?php print render($tabs); ?>
+      <?php endif; ?>
+      <?php if (!empty($page['help'])): ?>
+        <div class="well"><?php print render($page['help']); ?></div>
+      <?php endif; ?>
+      <?php if (!empty($action_links)): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
+    </section>
+
+    <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="span3" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+    <?php endif; ?>
+
+  </div>
+</div>
+<?php
+$theme_path = drupal_get_path('theme', 'cyranod7tb_cg');
+include ($theme_path.'/templates/includes/footer.inc');
+?>

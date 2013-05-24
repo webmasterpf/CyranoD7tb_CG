@@ -1,23 +1,15 @@
 <?php
-$theme_path = drupal_get_path('theme', 'cyranod7_cg');
-include ($theme_path.'/includes/inc_header.php');
+$theme_path = drupal_get_path('theme', 'cyranod7tb_cg');
+include ($theme_path.'/templates/includes/header.inc');
 ?>
 <!-- ______________________ LAYOUT HOMEPAGE PANORAMIQUE C.GRAWITZ_______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
-<?php //<div id="mainPage"> ?>
-	<div id="contentPage">
-
 
           <?php if (!empty($page['content_top'])): ?>
             <div id="content-top">
               <?php print render ($page['content_top']); ?>
             </div> <!-- /#content-top -->
           <?php endif; ?>
-
-<?php
-$theme_path = drupal_get_path('theme', 'cyranod7_cg');
-include ($theme_path.'/includes/inc_drupalMMHT.php');
-?>          
 
    <!-- ______________________ ZONE DIAPO PANORAMIQUE _______________________ -->
 
@@ -46,15 +38,16 @@ include ($theme_path.'/includes/inc_drupalMMHT.php');
     <div id="content-bottom-home">
       <?php print render ($page['content_bottom_home']); ?>
         <?php //print $feed_icons; ?>
+           </div><!-- /#content-bottom -->
          <?php endif; ?>
 
 
-    </div><!-- /#content-bottom -->
+ 
 
 
 
-	 </div> <!-- /mainPage -->
+	 <!-- FOOTER -->
 <?php
-$theme_path = drupal_get_path('theme', 'cyranod7_cg');
-include ($theme_path.'/includes/inc_footer.php');
+$theme_path = drupal_get_path('theme', 'cyranod7tb_cg');
+include ($theme_path.'/templates/includes/footer.inc');
 ?>

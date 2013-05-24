@@ -37,15 +37,7 @@ ul,li,dl,dd,dt{
 	width:100%;
 }
 
-/*Haut de page  HEADER*/
 
-#header{
-	margin:0 auto;
-	padding:0;
-	width:990px;
-	height:auto;
-	background-color:transparent;
-}
 
 /*Contenu de page  CONTENT */
 
@@ -119,31 +111,7 @@ background:transparent;
 width:100%;
 margin: 5px 0;
 }
-/*Bas de page  FOOTER*/
 
-#footer{
-	margin:0 auto;
-	padding:5px 0;
-	width:980px;
-	background: white url(../images/bg_footer.jpg) no-repeat bottom right;
-	text-align: left;
-	color: #9898a6;
-        height:45px;
-}
-
-#footer a{
-color: #9898a6;
-text-decoration:none;
-}
-#footer a:hover{
-color: #000000;
-}
-#bloc_stats{
-    color:red;
-    margin:0 auto;
-    width:600px;
-}
-/**----Fin FOOTER---***/
 #content-top{
     margin:0 auto;
     padding:5px;

@@ -1,13 +1,16 @@
 ;Le nom du dossier du theme et le nom du fichier info doivent etre identiques.
 ;Uniquement en minuscules et avec des underscores
-name = Cyrano D7 C.Grawitz
-description = Theme PF pour Drupal 7.Inspired by Basic.
+name = Cyrano D7 C.Grawitz TB
+description = Theme RWD Cyrano avec Twitter Bootstrap & HTML5
 screenshot = screenshot.png
 core = "7.x"
 version = VERSION
 engine = phptemplate
 
 scripts[] = js/general.js
+;inclusion du JS de twitter bootstrap
+;scripts[] = ../bootstrap/js/bootstrap.js
+
 
 ;regions[page_top] = Page top (D7)
 ;regions[header] = Header (D7)
@@ -70,10 +73,7 @@ stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/layout-home.css
 stylesheets[all][] = css/global.css
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/style-backoffice.css
-;stylesheets[all][] = css/reset.css
-stylesheets[all][] = css/maintenance.css
-stylesheets[print][] = css/print.css
+
 
 ; CSS pour utiliser NiceMenu
 ;stylesheets[all][] = css/navigation/nice_menus_custom.css
@@ -93,10 +93,3 @@ stylesheets[all][] = css/css_galeries/views_showcase.css
 stylesheets[all][] = css/css_galeries/views_slideshow.css
 ;CSS Slideshow Contenu Star
 stylesheets[all][] = css/css_galeries/slideshow-content-star.css
-
-
-
-settings[basic_zen_tabs]             = 1
-settings[basic_wireframe]            = 0
-settings[basic_block_editing]        = 1
-settings[basic_rebuild_registry]     = 1
